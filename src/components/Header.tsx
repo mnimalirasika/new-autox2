@@ -136,7 +136,7 @@ export const Header: React.FC<HeaderProps> = ({
                 Auto X
               </h1>
               <p className="text-xs text-gray-600 hidden sm:block">
-                Heavy Vehicle & Material Platform • Made in ⚡ Bolt
+                Heavy Vehicle & Material Platform 
               </p>
             </div>
           </div>
