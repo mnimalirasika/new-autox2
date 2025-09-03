@@ -106,7 +106,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose, onLogin }
         <div className="text-center mb-8">
           <div className="bg-gradient-to-br from-yellow-400 to-yellow-500 p-4 rounded-2xl shadow-lg w-20 h-20 mx-auto mb-6">
             <div className="w-full h-full flex items-center justify-center">
-              <span className="text-white text-3xl">🔐</span>
+              <span className="text-white text-3xl"></span>
             </div>
           </div>
           <h2 className="text-3xl font-bold text-gray-900 mb-2">
@@ -143,7 +143,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose, onLogin }
           )}
 
           <div className="relative">
-            <span className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400">📧</span>
+            <span className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400"></span>
             <input
               type="email"
               name="email"
@@ -171,7 +171,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose, onLogin }
           )}
 
           <div className="relative">
-            <span className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400">🔒</span>
+            <span className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400"></span>
             <input
               type={showPassword ? 'text' : 'password'}
               name="password"
@@ -186,7 +186,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose, onLogin }
               onClick={() => setShowPassword(!showPassword)}
               className="absolute right-4 top-1/2 transform -translate-y-1/2 text-gray-400 hover:text-gray-600"
             >
-              {showPassword ? '🙈' : '👁️'}
+              {showPassword ? '' : ''}
             </button>
           </div>
 
