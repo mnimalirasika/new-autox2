@@ -188,9 +188,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-gray-400 text-center md:text-left mb-4 md:mb-0">
               <p>&copy; 2025 Auto X Sri Lanka. All rights reserved.</p>
-              <p className="text-sm mt-1 flex items-center justify-center md:justify-start">
-                Made with ⚡ in <span className="font-semibold text-yellow-400 ml-1">Bolt</span>
-              </p>
+              
             </div>
             <div className="flex space-x-6 text-gray-400 text-sm">
               <a href="#" className="hover:text-yellow-400 transition-colors">Privacy Policy</a>
