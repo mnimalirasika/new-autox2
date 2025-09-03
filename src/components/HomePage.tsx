@@ -328,6 +328,11 @@ export const HomePage: React.FC<HomePageProps> = ({ onLogin, onSignUp }) => {
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-r from-blue-900 to-blue-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <div className="mb-8">
+            <p className="text-blue-200 text-sm flex items-center justify-center">
+              Powered by ⚡ <span className="font-semibold text-yellow-400 ml-1">Bolt</span>
+            </p>
+          </div>
           <h2 className="text-4xl lg:text-5xl font-bold text-white mb-6">
             Ready to Get Started?
           </h2>

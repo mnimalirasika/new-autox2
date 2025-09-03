@@ -104,9 +104,9 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose, onLogin }
         </button>
 
         <div className="text-center mb-8">
-          <div className="bg-gradient-to-br from-yellow-400 to-yellow-500 p-3 rounded-xl shadow-lg w-16 h-16 mx-auto mb-4">
-            <div className="w-full h-full bg-white rounded-lg flex items-center justify-center">
-              <span className="text-yellow-500 font-bold text-xl">A</span>
+          <div className="bg-gradient-to-br from-yellow-400 to-yellow-500 p-4 rounded-2xl shadow-lg w-20 h-20 mx-auto mb-6">
+            <div className="w-full h-full flex items-center justify-center">
+              <span className="text-white text-3xl">🔐</span>
             </div>
           </div>
           <h2 className="text-3xl font-bold text-gray-900 mb-2">

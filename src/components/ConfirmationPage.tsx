@@ -184,6 +184,11 @@ export const ConfirmationPage: React.FC<ConfirmationPageProps> = ({ onAction, re
                   <span>📞 +94 76 1098385</span>
                   <span>📧 support@autox.lk</span>
                 </div>
+                <div className="mt-4 pt-4 border-t border-blue-200">
+                  <p className="text-xs text-blue-500 flex items-center justify-center">
+                    Built with ⚡ <span className="font-semibold ml-1">Bolt</span>
+                  </p>
+                </div>
               </div>
             </div>
           </div>

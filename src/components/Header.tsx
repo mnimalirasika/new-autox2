@@ -129,13 +129,15 @@ export const Header: React.FC<HeaderProps> = ({
             className="flex items-center space-x-3 cursor-pointer group"
           >
             <div className="bg-gradient-to-br from-yellow-400 to-yellow-500 p-3 rounded-xl shadow-lg group-hover:scale-105 transition-transform duration-300">
-              <span className="text-white text-2xl font-bold">A</span>
+              <span className="text-white text-2xl">🚚</span>
             </div>
             <div>
               <h1 className="text-2xl font-bold text-gray-900 group-hover:text-yellow-600 transition-colors">
                 Auto X
               </h1>
-              <p className="text-xs text-gray-600 hidden sm:block">Heavy Vehicle & Material Platform</p>
+              <p className="text-xs text-gray-600 hidden sm:block">
+                Heavy Vehicle & Material Platform • Made in ⚡ Bolt
+              </p>
             </div>
           </div>
 
